@@ -1,0 +1,102 @@
+.mana-filter-item.selected {
+    font-weight: bold;
+  }
+
+.card-game {
+  padding: 20px;
+  transition: transform 0.5s ease; 
+  will-change: transform;
+}
+
+.card-game:hover {
+  filter: drop-shadow(4px 4px 4px #33333328);
+}
+
+.card-game img {
+    border-radius: 10px;
+  }
+
+  .filter-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .filter-menu select {
+    margin-right: 10px;
+  }
+
+.allegiance-filter-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+  .allegiance-filter-option {
+    width: 30px;
+  }
+
+  .mana-symbole {
+    width: 20px;
+    opacity: 0.50;
+  }
+
+  .mana-filter-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+
+  .selected {
+    box-shadow: 0 0 10px 3px blue; /* Ajoutez l'ombre portée bleue */
+    opacity: 1;
+  }
+
+  .active {
+    filter: drop-shadow(4px 4px 4px #4444dd);
+  }
+
+  .icone-mana:hover {
+    transform: scale(1.1);
+  }
+
+  .css-input {
+    color: #333 !important;
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da !important;
+    border-radius: 9px;
+    width: 300px !important;
+}
+
+.css-input:focus {
+  color: #333 !important;
+  background-color: #fff !important;
+  border-color: #b98fd0 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 .25rem rgba(115,31,161,0.25) !important;
+}
+
+#search-input {
+  color: #333 !important;
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  background-color: #ffffff;
+  border: 1px solid #ced4da !important;
+  border-radius: 9px;
+  width: 200px !important;
+}
+
+#search-input:focus {
+  color: #333 !important;
+  background-color: #fff !important;
+  border-color: #b98fd0 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 .25rem rgba(115,31,161,0.25) !important;
+}
